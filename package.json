@@ -1,0 +1,24 @@
+{
+  "name": "cardgame-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "debug": "nodemon --inspect=0.0.0.0 src/index.js"
+  },
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "@google-cloud/speech": "^4.10.0",
+    "axios": "^0.26.1",
+    "express": "^4.17.3",
+    "fluent-ffmpeg": "^2.1.2",
+    "puppeteer": "^13.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
