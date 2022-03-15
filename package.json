@@ -16,7 +16,8 @@
     "axios": "^0.26.1",
     "express": "^4.17.3",
     "fluent-ffmpeg": "^2.1.2",
-    "puppeteer": "^13.5.1"
+    "puppeteer": "^13.5.1",
+    "sharp": "^0.30.3"
   },
   "devDependencies": {
     "nodemon": "^2.0.15"
